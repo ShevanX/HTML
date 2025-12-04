@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SMU Information</title>
+    <style>
+
+        body {
+            background-color: white;
+        }
+        form {
+            background-color: lightgray;
+            margin: 0px;
+            padding: 10px;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        fieldset {
+            margin-bottom: 10px;
+            padding: 10px;
+            border: 1px solid white;
+        }
+
+        .formT td {
+            padding-right: 15px;
+        }
+
+        .buttons input{
+            border: 1px solid black;
+            border-radius: 3px;
+            margin-right: 10px;
+            padding: 6px 12px;
+        }
+
+
+        
+    </style>
+</head>
+
+<body>
+
+    <form method="post" action="https://wp.zybooks.com/form-viewer.php" target="_blank">
+
+        <fieldset>
+            <legend><b>Personal Information</b></legend>
+            <table class="formT">
+                <tr>
+                    <td><label for="fullName">Full Name</label></td>
+                    <td><input type="text" id="fullName" name="Full_Name" placeholder="Shevan Nadiranga: H248"></td>
+                </tr>
+                <tr>
+                    <td for="startdate">Start Date at SMU</td>
+                    <td><input type="date" id="date" name="Start_Date" data-placeholder="yyyy - mm - dd"></td>
+                </tr>
+            </table>
+        </fieldset>
+
+        <fieldset>
+            <legend><b>Favourite Programming Language</b></legend>
+            <label><input type="radio" name="language" value="C++"> C++</label>
+            <label><input type="radio" name="language" value="JavaScript"> JavaScript</label>
+            <label><input type="radio" name="language" value="Java" checked> Java</label>
+            <label><input type="radio" name="language" value="Python"> Python</label>
+        </fieldset>
+
+        <fieldset>
+            <legend><b>Current Course Registrations</b></legend>
+            <label><input type="checkbox" name="Course" value="CSCI2355"> CSCI2355</label>
+            <label><input type="checkbox" name="Course" value="CSCI2341"> CSCI2341</label>
+            <label><input type="checkbox" name="Course" value="CSCI1227"> CSCI1227</label>
+            <label><input type="checkbox" name="Course" value="MATH1216"> MATH1216</label>
+        </fieldset>
+
+        <fieldset>
+            <legend><b>Form Controls</b></legend>
+            <div class="buttons">
+                <input type="Submit" value="Submit form data">
+                <input type="reset" value="Reset form data">
+            </div>
+        </fieldset>
+
+    </form>
+
+</body>
+
+</html>

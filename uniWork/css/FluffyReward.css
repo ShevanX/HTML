@@ -1,0 +1,61 @@
+body {
+    font-family: cursive;
+    background-color: lightgray;
+}
+
+#topic {
+    color: red;
+    text-align: center;
+    border: 5px solid black;
+    border-bottom: none;
+    padding-top: 20px;
+    padding-bottom: 20px;
+
+}
+
+#content1 {
+    border: 5px solid black;
+    padding: 20px;
+    border-bottom: none;
+    
+}
+
+#content2 {
+    border: 5px solid black;
+    padding: 20px;
+    border-bottom: none;
+    text-align: justify;
+    overflow: auto;
+}
+
+#content2 img {
+    float: right;
+    border: 5px solid red;
+    margin-left: 20px;
+}
+
+#content3 {
+    font-family: Arial, Helvetica, sans-serif;
+    border: 5px solid black;
+    padding-left: 10px;
+    padding-right: 20px;
+    padding-bottom: 20px;
+    text-align: justify;
+    overflow: auto;
+    font-size: 0.9em;
+
+}
+
+#left {
+    width: 40%;
+    float: left;
+}
+
+#contactInfo {
+
+    width: 50%;
+    padding-top: 10px;
+    float: right;
+    line-height: 0px;
+}
+

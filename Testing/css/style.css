@@ -1,0 +1,41 @@
+@font-face {
+    font-family: medival;
+    src: url("../fonts/Montserrat/Montserrat-VariableFont_wght.ttf") format("truetype");
+}
+
+
+body {
+    font-family: medival;
+    background-color: black;
+}
+ 
+#box1 {
+    width: 250px;
+    height: 250px;
+    font-size: 10em;
+    color: white;
+    background-color: rgb(97, 9, 9);
+    text-align: center;
+    
+     
+}
+
+#box1:hover {
+
+    animation: glow;
+    animation-duration: 2s;
+}
+
+@keyframes slideLeft {
+    
+    from{transform: translateX(300px);}
+    to{transform: translateX(0px);}
+}
+
+@keyframes glow {
+
+    50%{box-shadow: 0px 0px 20px rgb(238, 238, 18);}
+}
+
+
+

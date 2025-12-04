@@ -1,0 +1,47 @@
+body {
+    font-family: Arial;
+    margin: 20px;
+    background-image: url("../images/bluepaper.jpg");
+    color: blue;
+}
+
+h1 {
+    background-color: yellow;
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    margin: 0;
+}
+
+h4 {
+    background-color: lightgrey;
+    padding: 20px;
+    color: brown;
+    margin: 0;
+}
+
+.image {
+    
+    float: left;
+    width: 40%;
+    margin-right: 10px;
+    margin-bottom: 20px;
+    margin-top: 0;
+}
+ 
+p {
+    margin: 0;
+    padding-top: 5px;
+}
+
+.side {
+    text-align: justify;
+    text-indent: 50px;
+}
+
+h3 {
+    clear: left;;
+    color: white;
+    margin-top: 20px;
+
+}
